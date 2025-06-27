@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Al Sharif Store</h1>
+        <figure>
+        <img src="images/clothing-store-logo.jpg" alt="Store Image" width="150" height="150">
+        </figure>
+        <ul>
+              <li><a href="contactUsPage.html">Contact Us Page</a></li>
+             <li><a href="add.php"> Add Product</a></li>
+            </ul>  
+    </header>
+    <hr>
+    <section>
+        <h2>Contact Information</h2>
+        <p>Address: School Street, Kafr Aqab</p>
+        <p>Phone: 0532304296</p>
+        <p>Email: alshareefy99@gmail.com</p>
+        <h2>Contact Form</h2>
+        <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+            <label for="name">Sender Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Sender E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="location">Sender Location (city):</label>
+            <input type="text" id="location" name="location" required><br>
+            <label for="subject">Message Subject:</label>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message">Message Body:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="products.php">Home</a></li>
+            </ul>
+        </nav>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Clothing Store. All rights reserved.</p>
+        <ul>
+            <li><em> E-mail: alshareefy99@gmail.com</em></li> 
+             
+              <li>Address: School Street, Kafr Aqab</li>
+
+            
+            </ul>
+    </footer>
+</body>
+</html>
